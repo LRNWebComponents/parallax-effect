@@ -7,7 +7,7 @@
     "hax-body-behaviors": "LRNWebComponents/hax-body-behaviors#^1.2.0",
     "materializecss-styles": "LRNWebComponents/materializecss-styles#^1.0.0",
     "schema-behaviors": "LRNWebComponents/schema-behaviors",
-    "jarallax": "^1.10.3"
+    "jarallax": "nk-o/jarallax#^1.10.3"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
