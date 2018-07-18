@@ -59,6 +59,18 @@
         position: absolute;
         border: solid 1px;
       }
+
+      @media screen and (max-width: 900px) {
+        .title {
+          font-size: 18px;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .title {
+          font-size: 14px;
+        }
+      }
     </style>
 
     <a href="[[url]]" target$="[[_urlTarget(url)]]">
@@ -126,7 +138,6 @@
 
       attached: function () {
         const targets = this.querySelectorAll('.jarallax')
-        // console.log(targets);
         const options = {
           speed: .2,
           videoStartTime: 06,
